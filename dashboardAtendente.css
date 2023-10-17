@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4rem;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    /* width: 200px; */
+    padding: 20px;
+    position: fixed;
+    height: 100%; /* Tornando a navegação com altura igual à janela */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 0 2rem 0;
+    color:#fff
+}
+
+nav ul li a {
+    color:#fff
+}
+
+main {
+    margin-left: 220px; /* Largura da navegação + margem para separação */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.search-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 5px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 2rem;
+    width: 90%;
+    border-collapse: collapse;
+    border: solid #333 2px;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+}
+
+/* Estilizando linhas pares (índices começam em 0) */
+table tr:nth-child(even) {
+    background-color: #dad0d0; /* Cor de fundo para linhas pares */
+}
+
+table .enviar-mensagem {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block; /* Tornando os botões elementos de bloco */
+    margin: 0 auto; /* Centralizando horizontalmente */
+    text-align: center; /* Centralizando o texto dentro do botão */
+    line-height: 1; /* Centralizando verticalmente */
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button, .pagination span {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
