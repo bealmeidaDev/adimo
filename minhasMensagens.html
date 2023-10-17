@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="dashboardAtendente.css">
+    <script src="https://kit.fontawesome.com/febea9faab.js" crossorigin="anonymous"></script>
+    <title>Minhas Mensagens</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-home"></i> <!-- Ícone da casa do FontAwesome -->
+        </div>
+        <h1>Minhas Mensagens</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="minhaLista.html">Minha Lista</a></li>
+            <li><a href="minhasMensagens.html">Minhas Mensagens</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Minhas Mensagens</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Buscar Mensagem">
+            <button type="button">Buscar Mensagem</button>
+        </div>
+        <table>
+            <tr>
+                <th>Assunto</th>
+                <th>Arquivar</th>
+            </tr>
+            <tr>
+                <td>Seu cadastro foi submetido à avaliação</td>
+                <td><button class="enviar-mensagem">Arquivar</button></td>
+            </tr>
+            <tr>
+                <td>Seu cadastro foi aprovado! :)</td>
+                <td><button class="enviar-mensagem">Arquivar</button></td>
+            </tr>                   
+        </table>
+        <div class="pagination">
+            <button class="prev">Anterior</button>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <button class="next">Próximo</button>
+        </div>
+    </main>
+</body>
+</html>

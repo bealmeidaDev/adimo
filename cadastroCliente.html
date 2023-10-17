@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="dashboardAtendente.css">
+    <script src="https://kit.fontawesome.com/febea9faab.js" crossorigin="anonymous"></script>
     <title>Cadastro de Cliente</title>
 </head>
 <body>
-    <h1>Cadastro de Cliente</h1>
+    <header>
+        <div class="logo">
+            <i class="fas fa-home"></i> <!-- Ícone da casa do FontAwesome -->
+        </div>
+        <h1>ADIMO Imobiliária</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="dashboardAtendente.html">Clientes</a></li>
+            <li><a href="cadastroCliente.html">Cadastro de Cliente</a></li>
+            <li><a href="reservaImovel.html">Reserva de Imóvel</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Cadastro de Cliente</h1>
+        <div class="search-box">
+            <button type="button">Enviar Para Avaliação</button>
+        </div>
+        <form class="cliente-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco">
+            </div>
+            <div class="form-group">
+                <label for="renda">Renda Mensal:</label>
+                <input type="text" id="renda" name="renda">
+            </div>
+            <div class="form-group">
+                <label for="referencias">Referências:</label>
+                <textarea id="referencias" name="referencias" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar Para Avaliação</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>

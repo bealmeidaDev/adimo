@@ -17,6 +17,7 @@ header {
 nav {
     background-color: #333;
     color: #fff;
+    margin-top: 90px;
     padding: 20px;
     position: fixed;
     height: 100%; /* Tornando a navegação com altura igual à janela */
@@ -84,16 +85,28 @@ table tr:nth-child(even) {
     background-color: #dad0d0; /* Cor de fundo para linhas pares */
 }
 
+table td img {
+    width: 5rem;
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    line-height: 1;
+}
+
+table td input[type="checkbox"] {
+    height: 1.5rem;
+}
+
 table .enviar-mensagem {
     padding: 5px 10px;
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
-    display: block; /* Tornando os botões elementos de bloco */
-    margin: 0 auto; /* Centralizando horizontalmente */
-    text-align: center; /* Centralizando o texto dentro do botão */
-    line-height: 1; /* Centralizando verticalmente */
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    line-height: 1; 
 }
 
 .pagination {
@@ -104,6 +117,38 @@ table .enviar-mensagem {
 .pagination button, .pagination span {
     padding: 5px 10px;
     margin: 0 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para o formulário de cadastro de cliente */
+
+.cliente-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
     background-color: #333;
     color: #fff;
     border: none;
