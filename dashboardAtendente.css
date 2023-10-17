@@ -17,7 +17,6 @@ header {
 nav {
     background-color: #333;
     color: #fff;
-    /* width: 200px; */
     padding: 20px;
     position: fixed;
     height: 100%; /* Tornando a navegação com altura igual à janela */
