@@ -76,3 +76,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.adicionar-lista {
+    margin-top: 2rem;
+}
